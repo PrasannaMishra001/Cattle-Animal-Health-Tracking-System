@@ -1,63 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T19:52:55.694Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.1" etag="_ZpVojSfEV2cueIiqldZ" type="github">
-  <diagram name="Page-1" id="HwUlrb0-ChHqg35qg5c0">
+<mxfile host="app.diagrams.net" modified="2024-07-17T20:16:36.606Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.1" etag="suM6vpHENhIQRxZB5Ot8" type="github">
+  <diagram name="Page-1" id="q-AWhYpeiVnrjwlKuBub">
     <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Sensors" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="543" width="140" height="455" as="geometry" />
-        </mxCell>
-        <mxCell id="3" value="MQ2" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="590" y="35" width="46" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="4" value="MQ135" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="582" y="139" width="63" height="59" as="geometry" />
-        </mxCell>
-        <mxCell id="5" value="DHT22" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="583" y="247" width="61" height="58" as="geometry" />
-        </mxCell>
-        <mxCell id="6" value="Pulse Rate" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="568" y="355" width="90" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="7" value="ArduinoUno" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="264" y="205" width="99" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="8" value="NodeMCU" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry y="205" width="83" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="9" value="Receive data from" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=0.01;entryX=0.01;entryY=0.5;" edge="1" parent="1" source="7" target="3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="453" y="62" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="10" value="Receive data from" style="curved=1;startArrow=none;endArrow=block;exitX=0.93;exitY=0.01;entryX=0;entryY=0.49;" edge="1" parent="1" source="7" target="4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="453" y="168" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="11" value="Receive data from" style="curved=1;startArrow=none;endArrow=block;exitX=0.93;exitY=1.03;entryX=0;entryY=0.51;" edge="1" parent="1" source="7" target="5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="453" y="276" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="12" value="Receive data from" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=1.03;entryX=0;entryY=0.5;" edge="1" parent="1" source="7" target="6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="453" y="388" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="13" value="Receive data from" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.52;entryX=0;entryY=0.52;" edge="1" parent="1" source="8" target="7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
